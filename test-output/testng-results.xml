@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-27T13:05:08 IST" name="Default suite" finished-at="2024-11-27T13:05:17 IST" duration-ms="9502">
+  <suite started-at="2024-11-28T10:17:14 IST" name="Default suite" finished-at="2024-11-28T10:17:25 IST" duration-ms="11701">
     <groups>
     </groups>
-    <test started-at="2024-11-27T13:05:08 IST" name="Default test" finished-at="2024-11-27T13:05:17 IST" duration-ms="9502">
-      <class name="Git_Project_example.Git_Example">
-        <test-method signature="Setup()[pri:1, instance:Git_Project_example.Git_Example@6f204a1a]" started-at="2024-11-27T13:05:08 IST" name="Setup" finished-at="2024-11-27T13:05:09 IST" duration-ms="1751" status="PASS">
+    <test started-at="2024-11-28T10:17:14 IST" name="Default test" finished-at="2024-11-28T10:17:25 IST" duration-ms="11701">
+      <class name="Git_Project_example.Pageobj_exp">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Git_Project_example.Pageobj_exp@6f15d60e]" started-at="2024-11-28T10:17:14 IST" name="setup" finished-at="2024-11-28T10:17:24 IST" duration-ms="10522" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Login()[pri:2, instance:Git_Project_example.Git_Example@6f204a1a]" started-at="2024-11-27T13:05:09 IST" name="Login" finished-at="2024-11-27T13:05:11 IST" duration-ms="1931" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:0, instance:Git_Project_example.Pageobj_exp@6f15d60e]" started-at="2024-11-28T10:17:24 IST" name="Login" finished-at="2024-11-28T10:17:25 IST" duration-ms="1097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Desktop()[pri:3, instance:Git_Project_example.Git_Example@6f204a1a]" started-at="2024-11-27T13:05:11 IST" name="Desktop" finished-at="2024-11-27T13:05:17 IST" duration-ms="5745" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Desktop -->
-      </class> <!-- Git_Project_example.Git_Example -->
+      </class> <!-- Git_Project_example.Pageobj_exp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
